@@ -1,0 +1,13 @@
+$tipo-1: "sedans" !default;
+$tipo-2: "suvs" !default;
+$tipo-3: "luxury" !default;
+$color-sedan: hsl(31, 77%, 52%) !default;
+$color-suv: hsl(184, 100%, 22%) !default;
+$color-luxury: hsl(179, 100%, 13%) !default;
+$color-texto: hsla(0, 0%, 100%, 0.75) !default;
+$color-titulo-fondo-btn: hsl(0, 0%, 95%);
+$font-titulos: 700 40px "Big Shoulders Display", sans-serif !default;
+$font-texto: 300 14px "Lexend Deca", verdana !default;
+$bordes-radius: 10px !default;
+$border-btn-radius: 25px !default;
+$border-btn: solid 2px $color-titulo-fondo-btn !default;

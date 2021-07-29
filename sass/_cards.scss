@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: $color-titulo-fondo-btn;
+    @media all and (max-width: 900px) {
+        height: 100%;
+    }
+    main {
+        @include arreglo_contenedor
+    }
+}
+
+@include secciones;
+
+@include secciones_exac ($tipo-1, $color-sedan);
+@include secciones_exac ($tipo-2, $color-suv);
+@include secciones_exac ($tipo-3, $color-luxury);

@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f2f2f2;
+}
+@media all and (max-width: 900px) {
+  body {
+    height: 100%;
+  }
+}
+body main {
+  max-width: 871px;
+  flex: auto;
+  display: grid;
+  height: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media all and (max-width: 900px) {
+  body main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 325px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.secciones {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(60px, 120px) auto minmax(25px, 50px);
+  padding-left: 40px;
+  padding-right: 55px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.secciones .secciones_header .secciones_header-title {
+  margin-top: 20px;
+  font: 700 40px "Big Shoulders Display", sans-serif;
+  color: #f2f2f2;
+}
+.secciones .secciones_text {
+  font: 300 14px "Lexend Deca", verdana;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 25px;
+  padding-top: 20px;
+}
+@media all and (max-width: 900px) {
+  .secciones {
+    padding-right: 65px;
+  }
+  .secciones .secciones_text {
+    padding-bottom: 40px;
+  }
+}
+
+.sedans {
+  background: #e38826;
+}
+.sedans .secciones_btn {
+  max-width: 146px;
+  max-height: 46px;
+  border-radius: 25px;
+  border: solid 2px #f2f2f2;
+  text-align: center;
+}
+.sedans .secciones_btn a {
+  display: block;
+  width: 100%;
+  height: 33px;
+  background: #f2f2f2;
+  padding-top: 13px;
+  border-radius: 25px;
+  text-decoration: none;
+  font: 300 14px "Lexend Deca", verdana;
+  color: #e38826;
+}
+.sedans .secciones_btn a:hover {
+  background: none;
+  color: #f2f2f2;
+  cursor: hand;
+}
+
+.suvs {
+  background: #006970;
+}
+.suvs .secciones_btn {
+  max-width: 146px;
+  max-height: 46px;
+  border-radius: 25px;
+  border: solid 2px #f2f2f2;
+  text-align: center;
+}
+.suvs .secciones_btn a {
+  display: block;
+  width: 100%;
+  height: 33px;
+  background: #f2f2f2;
+  padding-top: 13px;
+  border-radius: 25px;
+  text-decoration: none;
+  font: 300 14px "Lexend Deca", verdana;
+  color: #006970;
+}
+.suvs .secciones_btn a:hover {
+  background: none;
+  color: #f2f2f2;
+  cursor: hand;
+}
+
+.luxury {
+  background: #004241;
+}
+.luxury .secciones_btn {
+  max-width: 146px;
+  max-height: 46px;
+  border-radius: 25px;
+  border: solid 2px #f2f2f2;
+  text-align: center;
+}
+.luxury .secciones_btn a {
+  display: block;
+  width: 100%;
+  height: 33px;
+  background: #f2f2f2;
+  padding-top: 13px;
+  border-radius: 25px;
+  text-decoration: none;
+  font: 300 14px "Lexend Deca", verdana;
+  color: #004241;
+}
+.luxury .secciones_btn a:hover {
+  background: none;
+  color: #f2f2f2;
+  cursor: hand;
+}
+
+/*# sourceMappingURL=styles-main.css.map */
